@@ -1,0 +1,197 @@
+<!--HTML: Maquetado del contenido-->
+<!--CSS: Formato del contenido-->
+<!--JavaScript: Efectos y animaciones-->
+<!--Los tres conforman el desarrollo web-->
+
+<!--Código base-->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Encabezado de la página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML5</title>
+</head>
+<body> <!--Cuerpo de la página-->
+
+    <!--Etiquetas de estructura-->
+
+    <header>Aquí va la información de encabezado.</header>
+
+    <nav>Aquí van los enlaces de navegación</nav>
+
+    <aside>Aquí va información adicional a la página que se esta mostrando.</aside>
+
+    <h1>Titulo de la página</h1>
+
+    <section>Esto permite organizar de mejor manera una pagina
+        <article>Articulos</article>
+        <article>Articulos</article>
+    </section>
+
+    <footer> Pie de página</footer>
+
+    <!--Etiquetas de encabezamiento-->
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><!--Esto crea espacio hacia abajo--> Vel expedita assumenda <em>pariatur</em> excepturi itaque, atque rem quisquam dolor <strong>nostrum</strong> natus <b>asperiores </b>totam hic. Deleniti <i>omnis</i> non velit dolor quaerat.</p>
+    <h2>Letras mas pequeñas</h2>
+    <h6>Letras mas pequeñas</h6>
+    <hr>
+
+    <!--Enlaces-->
+    <a href="https://www.geogebra.org/calculator">Ir a</a> <!--Enlace que va a otra pagina en la misma pagina-->
+    <a target="_blank" href="https://www.geogebra.org/calculator">Sal de la pagina</a><!--Este nos abre el link en una nueva pestaña-->
+    <!--Donde esta el # se puede poner un enlace que apunte: Dentro de la misma pagina, página web externa, página propia o descargar un archivo -->
+
+    <!--Listas ordenadas-->
+    <ol type="I">
+        <li>Primer item</li>
+        <li>Segundo item</li>
+        <li>Tercer item</li>
+        <li>Cuarto item</li>
+    </ol>
+
+    <!--Listas desordenadas-->
+    <ul type="none">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <!--Lista de descripcion-->
+    <dl>
+        <dt>HTML</dt> <!--Termino-->
+        <dd>HTML es Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquid fugit nam tempore quae at nulla maiores voluptas, ea vitae quos. Molestiae incidunt, soluta quos provident expedita fugit dicta eveniet.</dd> <!--Descripción del termino-->
+        <dt>CSS</dt>
+        <dd>CSS es Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illo amet, incidunt magni odio deleniti quam rerum temporibus harum, ducimus reprehenderit. Est suscipit explicabo delectus ratione sint ullam quam architecto.</dd>
+        <dt>JavaScript</dt>
+        <dd>JavaScript es Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima autem culpa maxime voluptas error. Eveniet quidem accusantium, harum dolores deserunt, vel ab ipsum voluptates, atque in a sunt at.</dd>
+    </dl>
+
+    <!--Imagenes-->
+    <img src="css/spa-662_128.gif" alt="spa" usemap="#mymap">
+
+    <!--Mapas-->
+    <map name="mymap">
+        <area shape="circle" coords="57,37,30" href="https://www.tripadvisor.co/Attractions-g297474-Activities-c40-Bucaramanga_Santander_Department.html" alt="Spas">
+    </map>
+    
+   <!--Tablas--> 
+   <h2>Tablas</h2>
+   <table border="1">
+        <caption>Mi horario</caption>
+        <tr>
+            <th colspan="5">HORARIO</th>
+            <th colspan="2">Fin de Semana</th>
+        </tr>
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+        </tr>
+            <th rowspan="3">Programar</th>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <tr>
+        </tr>
+        </tr>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <tr>
+        </tr>
+                </tr>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <tr>
+        </tr>
+   </table>
+   <br>
+
+   <!--Audio y video-->
+   <h2>Audios y Videos</h2>
+
+   <audio src="css/Alex-Productions - Relaxing meditative piano _ Winter Spa.mp3" controls autoplay loop></audio>
+   <video src="https://www.youtube.com/watch?v=aLQPpDLM21o&t=867s" controls autoplay loop></video>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/akFzU5K8VL0?si=hQvDBdb9Zzlg0R84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <!--Formularios-->
+   <h2>Formularios</h2>
+   <form action="prueba.html">
+       <fieldset>
+        <legend>Datos del usuario</legend>
+            <label for="Name">Nombre:</label><br>
+            <input type="text" id="Name" name="Name" placeholder="Ingresa aqui tu nombre" required autofocus><br>
+
+            <label for="email">Correo:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="pass">Contraseña:</label><br>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label for="birthday">Fecha de Nacimiento:</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <label for="cv">Ingresa tu CV:</label><br>
+            <input type="file" id="cv" name="cv"><br>
+
+            <label for="Descripcion">Descripcion</label>
+            <textarea name="Descripcion" id="Descripcion" cols="50" rows="10"></textarea>
+       </fieldset>
+
+       <fieldset>
+        <legend>Hobbies</legend>
+
+        <input type="checkbox" id="read" name="hobby1" value="read">
+        <label for="read">Leer</label><br>
+
+        <input type="checkbox" id="dance" name="hobby2" value="dance">
+        <label for="dance">Bailar</label><br>
+
+        <input type="checkbox" id="coding" name="hobby3" value="coding">
+        <label for="coding">Programar</label><br>
+       </fieldset>
+       <br>
+
+       <fieldset>
+        <legend>Color favorito</legend>
+
+        <input type="radio" id="red" name="color" value="red"><br>
+        <label for="red">Rojo</label><br>
+
+        <input type="radio" id="blue" name="color" value="blue"><br>
+        <label for="blue">Azul</label><br>
+
+        <input type="radio" id="green" name="color" value="green"><br>
+        <label for="green">Verde</label><br>
+
+        <input type="color" name="color">
+
+        <select name="color2" id="color2">
+            <option value="blue">Azul</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+        </select>
+       </fieldset>
+       <br>
+       <input type="submit" value="Listo">
+       <input type="reset" value="Borrar">
+   </form>
+</body>
+</html>
