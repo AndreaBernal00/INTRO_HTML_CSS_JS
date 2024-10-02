@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-color: #552022;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2rem;
+}
+
+/*-----Menu principal-----*/
+.menu{
+    background-color: #ADD3D0;
+    display: inline-flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px ;
+}
+
+.menu a:hover{
+    background-color:#153250;
+    color:#ADD3D0 ;
+}
+
+.menu a.active{
+    background-color:#153250;
+    color:#ADD3D0 ;
+}
+
+/*-----Redes sociales---*/
+
+.social{
+    margin: 30px 0;
+}
+
+.social a{
+    padding: 0 10px;
+    color:#ADD3D0;
+}
+
+.social a:hover{
+    color: white;
+}
+
+/*-----Boton suscribete-----*/
+
+.botton a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.botton a:hover{
+    color:red;
+    background-color: white;
+}
