@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+body{
+    font-family:"Protest Strike", sans-serif;
+    text-align: center;
+}
+header{
+    padding: 5px;
+    margin: 5px;
+    background-color: #D4F1F4;
+    border-radius: 5px;
+}
+nav{
+    background-color: #75E6DA;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+section{
+    background-color: #189AB4;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+article{
+    background-color: #05445E;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+aside{
+    background-color: #000C66;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+footer{
+    color: white;
+    background-color: #050A30;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
